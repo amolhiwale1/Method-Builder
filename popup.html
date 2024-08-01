@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Method Builder</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Method Builder 1.0</h1>
+    <textarea id="inputField" placeholder="Enter CSS Selector or XPath"></textarea>
+    <div class="radio-group">
+      <fieldset>
+        <legend>Select Category</legend>
+        <label><input type="radio" name="category" value="Macroponent" checked> Macroponent</label>
+        <label><input type="radio" name="category" value="Seismic Hoist"> Seismic Hoist</label>
+      </fieldset>
+      <fieldset>
+        <legend>Select Method</legend>
+        <label><input type="radio" name="method" value="ByCss" checked> ByCss</label>
+        <label><input type="radio" name="method" value="AllByCss"> AllByCss</label>
+        <label><input type="radio" name="method" value="ByXpath"> ByXpath</label>
+        <label><input type="radio" name="method" value="AllByXpath"> AllByXpath</label>
+      </fieldset>
+      <fieldset>
+        <legend>Select Element Type</legend>
+        <label><input type="radio" name="elementType" value="Anchor" checked> Anchor</label>
+        <label><input type="radio" name="elementType" value="Button"> Button</label>
+        <label><input type="radio" name="elementType" value="TextInput"> TextInput</label>
+      </fieldset>
+    </div>
+    <button id="generateButton">Generate</button>
+    <textarea id="outputField" readonly></textarea>
+    <div id="copyMessage"></div>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
