@@ -37,8 +37,12 @@ textarea {
 .radio-group {
   display: flex;
   flex-direction: column;
-  width: 90%;
+  width: 100%;
   margin-bottom: 10px;
+}
+
+#catagory{
+  width: 60%;
 }
 
 fieldset {
@@ -47,6 +51,7 @@ fieldset {
   padding: 10px;
   margin-bottom: 10px;
   background-color: #2a2a2a;
+  display: flex;
 }
 
 legend {
