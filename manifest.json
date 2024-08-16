@@ -1,6 +1,6 @@
 {
-    "manifest_version": 3,
-    "name": "CSS/XPath Formatter",
+    "manifest_version": 2.0,
+    "name": "Method Builder 2.0",
     "version": "1.0",
     "description": "Formats CSS Selectors or XPaths into specific Java method templates",
     "permissions": [
