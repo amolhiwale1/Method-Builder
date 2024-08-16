@@ -14,10 +14,10 @@ document.addEventListener('DOMContentLoaded', function () {
       const elementType = document.querySelector('input[name="elementType"]:checked').value;
   
       let returnStatement;
-      if (category === 'Macroponent') {
-        returnStatement = 'return customUiMainMacroponent()';
-      } else if (category === 'Seismic Hoist') {
-        returnStatement = 'return customUiDropDownSeismicHoist()';
+      if (category === 'Screen 3') {
+        returnStatement = 'return customUiMainMacroponent()\n.createByCss(ShadowRoot.class, "main > sn-canvas-screen:nth-child(3)")\n';
+      } else if (category === 'Screen 4') {
+        returnStatement = 'return customUiMainMacroponent()\n.createByCss(ShadowRoot.class, "main > sn-canvas-screen:nth-child(4)")\n';
       }
   
       if (method === 'ByCss') {
