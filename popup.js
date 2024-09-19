@@ -26,6 +26,9 @@ document.addEventListener("DOMContentLoaded", function () {
     } else if (category === "Screen 4") {
       returnStatement =
         'return customUiMainMacroponent()\n.createByCss(ShadowRoot.class, "main > sn-canvas-screen:nth-child(4)")\n';
+    } else if (category === "Screen 5") {
+      returnStatement =
+        'return customUiMainMacroponent()\n.createByCss(ShadowRoot.class, "main > sn-canvas-screen:nth-child(5)")\n';
     }
 
     if (method === "ByCss") {

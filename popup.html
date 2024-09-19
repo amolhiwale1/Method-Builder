@@ -1,6 +1,8 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Method Builder</title>
   <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
@@ -14,6 +16,7 @@
         <label><input type="radio" name="category" value="No Screen" checked> No Screen</label>
         <label><input type="radio" name="category" value="Screen 3" > Screen 3</label>
         <label><input type="radio" name="category" value="Screen 4"> Screen 4</label>
+        <label><input type="radio" name="category" value="Screen 5"> Screen 5</label>
       </fieldset>
       <fieldset id="method" >
         <legend>Select Method</legend>
@@ -30,7 +33,7 @@
       </fieldset>
     </div>
     <button id="generateButton">Generate</button>
-    <textarea id="outputField" readonly></textarea>
+    <textarea aria-label="output" id="outputField" readonly></textarea>
     <div id="copyMessage"></div>
   </div>
   <script src="popup.js"></script>
